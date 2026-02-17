@@ -12,8 +12,7 @@ jobs:
         with:
           python-version: '3.10'
       - run: |
-          pip install -r requirements.txt
-          python main.py
+          - run: |pip install python-telegram-bot==13.15 smartapi-python pandas numpy python-dotenv requests pyotp PyYAML websocket-client python main.py
         env:
           ANGEL_CLIENT_ID: ${{ secrets.ANGEL_CLIENT_ID }}
           ANGEL_PASSWORD: ${{ secrets.ANGEL_PASSWORD }}
