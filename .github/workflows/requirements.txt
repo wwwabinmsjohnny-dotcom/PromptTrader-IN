@@ -1,5 +1,5 @@
 python-telegram-bot==13.15
-smartapi-python==1.1.0
+smartapi-python
 pandas
 numpy
 python-dotenv
@@ -7,3 +7,4 @@ requests
 pyotp
 PyYAML
 websocket-client
+ta-lib
